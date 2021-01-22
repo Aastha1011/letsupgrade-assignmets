@@ -1,11 +1,11 @@
 Question 1
 
-//"122"
-//"32"
-//"02"
-//"112"
-//"NaN2"
-//"NaN2"
+//"122" because "2" is considered as string and hence it gets concatenated.
+//"32"  because first "2" has a "+" operator hence it gets added to the 1 and second 2 is considered as a string and is concatenated.
+//"02"  because  "1" has a "-" operator hence it gets subtracted from 1 and 2 is considered as a string and is concatenated.
+//"112" because every string has "+" operator hence it gets concatenated.
+//"NaN2" because "A" and "B" are strings so the output is Not a Number(NaN) so they can't be subtracted and the 2 is concatenated at end.
+//"NaN2"  because "A" and "B" are strings so the output is Not a Number(NaN) so they can't be subtracted and the 2 is concatenated at end.
 
 Question 2
 You are given a variable “marks”. Your task is to print:
